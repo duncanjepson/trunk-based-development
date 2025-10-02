@@ -1,0 +1,24 @@
+# ----- Docs -----
+/docs/                                   @loccyber/tech-writers
+
+# ----- Security-sensitive areas -----
+/src/**/Security/**                      @loccyber/sec-team
+/src/**/Auth/**                          @loccyber/sec-team @loccyber/backend-leads
+/.github/SECURITY.md                     @loccyber/sec-team
+/.github/CODEOWNERS                      @loccyber/sec-team
+
+# ----- Build & release plumbing -----
+/.github/**                              @loccyber/release-engineering
+/build/**                                @loccyber/release-engineering
+
+# ----- Application areas (example paths for .NET repos) -----
+/src/**/Controllers/**                   @loccyber/backend-leads
+/src/**/Services/**                      @loccyber/backend-leads
+/src/**/Data/**                          @loccyber/backend-leads
+/src/**/UI/**                            @loccyber/frontend-team
+
+# ----- Tests -----
+/tests/**                                @loccyber/qa-team
+
+# ----- Fallback owner (last resort) -----
+*                                         @loccyber/maintainers
